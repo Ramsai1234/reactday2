@@ -10,7 +10,7 @@ const Employee = ({ employee }) => {
 
   return (
     <div className="employee-card">
-      <img src="/src/assets/img.svg" alt="Employee" />
+      <img src="https://cdn.vectorstock.com/i/1000x1000/49/30/eye-icon-in-modern-design-style-for-web-site-vector-26504930.webp" alt="Employee" />
       <h2>{employee.name}</h2>
       <p>Phone: {employee.phone}</p>
       {showDetails && (
